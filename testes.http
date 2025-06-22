@@ -1,0 +1,11 @@
+### Cadastrar um produto
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+  "nome": "Celular",
+  "preco": 1500.00
+}
+
+### Listar produtos
+GET http://localhost:3000/produtos
